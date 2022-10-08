@@ -1,0 +1,28 @@
+.resContainer{
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+.resContainerInner{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.resList{
+    width: 100%;
+}
+.resList ul{
+    margin: 0px;
+    width: 100%;
+    list-style-type: none;
+    padding: 0px;
+}
+.resList ul li{
+    font-weight: 800;
+    margin-bottom: 2px;
+    background-color: aliceblue;
+    font-size: 12px;
+    text-align:center;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    padding: 10px 0px;
+}

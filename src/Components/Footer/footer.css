@@ -1,0 +1,185 @@
+.footerContainer {
+    background: linear-gradient(95.55deg, #0B5109 -77.69%, #063C0B -77.67%, rgba(9, 108, 19, 0.88) 100.16%);
+    height: 447px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footerContainerIn {
+    height: 60%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.menuContainer {
+    height: 90%;
+    width: 100%;
+    margin: 0px;
+    justify-content: space-between;
+}
+
+.addressContainer {
+    height: 100%;
+}
+
+.addressHeader {
+    font-weight: 700;
+    height: 18px;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.addressLine {
+    color: white;
+    font-size: 12px;
+    line-height: 150%;
+    margin-left: 30px;
+    max-width: 200px;
+}
+
+.serviceUl {
+    padding: 0;
+    margin: 0;
+}
+
+.serviceUl ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.serviceUl ul li {
+    color: white;
+    font-size: 12px;
+    line-height: 160%;
+}
+.serviceUl ul li:hover{
+    cursor: pointer;
+}
+
+.textin {
+    color: white;
+    font-size: 12px;
+    margin: 10px 0px;
+}
+
+.mail {
+    text-decoration: underline;
+}
+.mail:hover{
+    cursor: pointer;
+}
+
+.copyRightContainer {
+    height: 10%;
+    color: white;
+    font-size: 11px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 990px) {
+
+    .footerContainer {
+        padding-top: 30px;
+        background: linear-gradient(95.55deg, #0B5109 -77.69%, #063C0B -77.67%, rgba(9, 108, 19, 0.88) 100.16%);
+        height: max-content;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footerContainerIn {
+        height: 60%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .menuContainer {
+        height: 90%;
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+        display: flex !important;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .addressContainer {
+        height: auto;
+    }
+
+    .addressHeader {
+        text-align: center;
+        font-weight: 700;
+        height: 18px;
+        color: white;
+        margin-bottom: 15px;
+        margin-top: 40px;
+    }
+
+    .addressLine {
+        color: white;
+        text-align: center;
+        font-size: 12px;
+        line-height: 150%;
+        margin-left: 0px;
+        max-width: 200px;
+    }
+
+    .serviceUl {
+        text-align: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .serviceUl ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .serviceUl ul li {
+        color: white;
+        font-size: 12px;
+        margin: 5px 0px;
+        line-height: 160%;
+
+    }
+
+    .textin {
+        color: white;
+        font-size: 12px;
+        margin: 10px 0px;
+    }
+
+    .mail {
+        text-decoration: underline;
+    }
+    .getInTouchBottom{
+        text-align: center;
+    }
+
+    .copyRightContainer {
+        width: 100%;
+        height: auto;
+        color: white;
+        font-size: 11px;
+        text-align: center;
+        margin: 30px 0px;
+        padding-top: 20px;
+    }
+
+
+
+}
